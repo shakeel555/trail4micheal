@@ -1,0 +1,47 @@
+.react-pagination-table {
+    position: left;
+    border-radius: 3px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.react-pagination-table .title {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+    font-weight:100;
+    padding: 20px 20px 10px;
+}
+
+.react-pagination-table .box {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+}
+
+.react-pagination-table .table-header {
+    background: #e8e8e8;
+}
+
+.react-pagination-table .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.react-pagination-table .table>tbody>tr>td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
